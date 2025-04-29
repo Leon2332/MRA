@@ -8,7 +8,7 @@
       }
 
       #map_mra_circle_1 {
-        fill: #CC3C2C50;
+        fill: #CC3C2C30;
       }
 
       #map_mra_circle_2 {
@@ -19,25 +19,80 @@
 
       .map_mra_regions {
         stroke: #CC3C2C;
-        fill: none;
+        fill: #ffffff20;
+      }
+
+      .map_mra_regions:hover {
+        fill: #CC3C2C50;
       }
 
 
       .map_mra_text {
         font-size: 24px;
-        fill: #CC3C2C;
+        fill: none;
       }
 
 
 
-
-        :has(#AO:hover) :is(#mapmra_AO) {
+        :has(#AO:hover) :is(#map_mra_AO),
+        :has(#BI:hover) :is(#map_mra_BI),
+        :has(#BW:hover) :is(#map_mra_BW),
+        :has(#BF:hover) :is(#map_mra_BF),
+        :has(#BI:hover) :is(#map_mra_BI),
+        :has(#CM:hover) :is(#map_mra_CM),
+        :has(#CV:hover) :is(#map_mra_CV),
+        :has(#CF:hover) :is(#map_mra_CF),
+        :has(#TD:hover) :is(#map_mra_TD),
+        :has(#KM:hover) :is(#map_mra_KM),
+        :has(#CD:hover) :is(#map_mra_CD),
+        :has(#DJ:hover) :is(#map_mra_DJ),
+        :has(#EG:hover) :is(#map_mra_EG),
+        :has(#GQ:hover) :is(#map_mra_GQ),
+        :has(#ER:hover) :is(#map_mra_ER),
+        :has(#SZ:hover) :is(#map_mra_SZ),
+        :has(#ET:hover) :is(#map_mra_ET),
+        :has(#GA:hover) :is(#map_mra_GA),
+        :has(#GM:hover) :is(#map_mra_GM),
+        :has(#GH:hover) :is(#map_mra_GH),
+        :has(#GN:hover) :is(#map_mra_GN),
+        :has(#GW:hover) :is(#map_mra_GW),
+        :has(#CI:hover) :is(#map_mra_CI),
+        :has(#KE:hover) :is(#map_mra_KE),
+        :has(#LS:hover) :is(#map_mra_LS),
+        :has(#LR:hover) :is(#map_mra_LR),
+        :has(#LY:hover) :is(#map_mra_LY),
+        :has(#MG:hover) :is(#map_mra_MG),
+        :has(#MW:hover) :is(#map_mra_MW),
+        :has(#ML:hover) :is(#map_mra_ML),
+        :has(#MR:hover) :is(#map_mra_MR),
+        :has(#MU:hover) :is(#map_mra_MU),
+        :has(#YT:hover) :is(#map_mra_YT),
+        :has(#MA:hover) :is(#map_mra_MA),
+        :has(#MZ:hover) :is(#map_mra_MZ),
+        :has(#NA:hover) :is(#map_mra_NA),
+        :has(#NE:hover) :is(#map_mra_NE),
+        :has(#NG:hover) :is(#map_mra_NG),
+        :has(#CG:hover) :is(#map_mra_CG),
+        :has(#RE:hover) :is(#map_mra_RE),
+        :has(#RW:hover) :is(#map_mra_RW),
+        :has(#ST:hover) :is(#map_mra_ST),
+        :has(#SN:hover) :is(#map_mra_SN),
+        :has(#SC:hover) :is(#map_mra_SC),
+        :has(#SL:hover) :is(#map_mra_SL),
+        :has(#SO:hover) :is(#map_mra_SO),
+        :has(#ZA:hover) :is(#map_mra_ZA),
+        :has(#SS:hover) :is(#map_mra_SS),
+        :has(#SD:hover) :is(#map_mra_SD),
+        :has(#TZ:hover) :is(#map_mra_TZ),
+        :has(#TG:hover) :is(#map_mra_TG),
+        :has(#TN:hover) :is(#map_mra_TN),
+        :has(#UG:hover) :is(#map_mra_UG),
+        :has(#EH:hover) :is(#map_mra_EH),
+        :has(#ZM:hover) :is(#map_mra_ZM),
+        :has(#ZW:hover) :is(#map_mra_ZW) {
           fill: #CC3C2C;
         }
 
-        :has(#AO:hover) :is(#mapmra_AO) {
-          fill: #CC3C2C;
-        }
 
     </style>
   </defs>
